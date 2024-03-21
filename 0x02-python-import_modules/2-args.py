@@ -7,7 +7,6 @@ if __name__ == "__main__":
         print("0 arguments.")
     elif args_numbs == 1:
         print("{} argument:".format(args_numbs))
-
     else:
         print("{} arguments: ".format(args_numbs))
     for o in range(args_numbs):
