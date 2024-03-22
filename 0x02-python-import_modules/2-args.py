@@ -4,10 +4,11 @@ if __name__ == "__main__":
     arguments = sys.argv[1:]
     args_numbs = len(arguments)
     if args_numbs == 0:
-        print("0 arguments.\n")
+        print("0 arguments.")
     elif args_numbs == 1:
-        print("{} argument:\n".format(args_numbs))
+        print("{} argument:".format(args_numbs))
     else:
-        print("{} arguments:\n".format(args_numbs))
+        print("{} arguments:".format(args_numbs))
+
     for o in range(args_numbs):
-        print("{}: {}\n ".format(o+1, arguments[o]))
+        print("{}: {}".format(o+1, arguments[o]))
