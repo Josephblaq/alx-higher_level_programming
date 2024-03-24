@@ -1,4 +1,4 @@
-# This directory contains: #
+# This directory contains:
 
 function that prints all integers in a List.
 
